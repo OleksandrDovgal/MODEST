@@ -80,13 +80,27 @@
 		flex-wrap: wrap;
 	}
 
+	.flex-container {
+		display: flex;
+		padding-top: 20px;
+		justify-content: center;
+	}
+
+	.menu {
+		width: 58.33333%;
+		display: flex;
+		padding-top: 20px;
+		overflow-x: scroll;
+	}
+
 	.col-xs-hidden {
 		display: none;
 	}
 }
 
 .menuText {
-	/* height: 80px; */
-	padding-left: 17.5px;
-	padding-right: 17.5px;
+	padding-left: 15px;
+	/*17.5px*/
+	padding-right: 15px;
+	/*17.5px*/
 }
